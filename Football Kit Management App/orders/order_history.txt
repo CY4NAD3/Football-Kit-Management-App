@@ -1,0 +1,92 @@
+🛍️ Order Summary:
+
+Football x3 = $1500 | Remaining: 147
+Jersey x2 = $1600 | Remaining: 98
+Shorts x4 = $3200 | Remaining: 96
+Watersipper x2 = $40 | Remaining: 98
+
+✅ Total price: $6340
+------------------------
+🛍️ Order Summary:
+
+Football x3 = $1500 | Remaining: 144
+Jersey x2 = $1600 | Remaining: 96
+Shorts x3 = $2400 | Remaining: 93
+Scarf x4 = $400 | Remaining: 76
+
+✅ Total price: $5900
+------------------------
+🛍️ Order Summary:
+
+Football x3 = $1500 | Remaining: 147
+Jersey x3 = $2400 | Remaining: 97
+Shorts x5 = $4000 | Remaining: 95
+Watersipper x5 = $100 | Remaining: 95
+Scarf x1 = $100 | Remaining: 79
+
+✅ Total price: $8100
+------------------------
+🛍️ Order Summary:
+
+Football x4 = $2000 | Remaining: 143
+Jersey x3 = $2400 | Remaining: 94
+Shorts x3 = $2400 | Remaining: 92
+Watersipper x3 = $60 | Remaining: 92
+Scarf x2 = $200 | Remaining: 77
+
+✅ Total price: $7060
+------------------------
+🛍️ Order Summary:
+
+Football x10 = $5000 | Remaining: 140
+Jersey x1 = $800 | Remaining: 99
+Shorts x3 = $2400 | Remaining: 97
+Watersipper x3 = $60 | Remaining: 97
+Scarf x2 = $200 | Remaining: 78
+
+✅ Total price: $8460
+------------------------
+🛍️ Order Summary:
+
+Football x5 = $2500 | Remaining: 145
+Jersey x2 = $1600 | Remaining: 98
+Shorts x4 = $3200 | Remaining: 96
+Watersipper x2 = $40 | Remaining: 98
+Scarf x3 = $300 | Remaining: 77
+
+✅ Total price: $7640
+------------------------
+🛍️ Order Summary:
+
+Football x8 = $4000 | Remaining: 142
+Jersey x3 = $2400 | Remaining: 97
+Shorts x12 = $9600 | Remaining: 88
+Watersipper x2 = $40 | Remaining: 98
+Scarf x5 = $500 | Remaining: 75
+
+✅ Total price: $16540
+------------------------
+🛍️ Order Summary:
+
+Football x3 = $1500 | Remaining: 147
+Jersey x4 = $3200 | Remaining: 96
+
+✅ Total price: $4700
+------------------------
+🛍️ Order Summary:
+
+Football x3 = $1500 | Remaining: 147
+Jersey x24 = $19200 | Remaining: 76
+Shorts x30 = $24000 | Remaining: 70
+Watersipper x25 = $500 | Remaining: 75
+Scarf x4 = $400 | Remaining: 76
+Boots x14 = $2100 | Remaining: 186
+
+✅ Total price: $47700
+------------------------------------------------
+🛍️ Order Summary:
+
+Jersey x2 = $1600 | Remaining: 98
+
+✅ Total price: $1600
+------------------------------------------------
