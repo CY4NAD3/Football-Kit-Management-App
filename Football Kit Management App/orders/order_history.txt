@@ -90,3 +90,35 @@ Jersey x2 = $1600 | Remaining: 98
 
 ✅ Total price: $1600
 ------------------------------------------------
+🛍️ Order Summary:
+
+Football x7 = $3500 | Remaining: 143
+Jersey x7 = $5600 | Remaining: 93
+Shorts x6 = $4800 | Remaining: 94
+Watersipper x25 = $500 | Remaining: 75
+Scarf x5 = $500 | Remaining: 75
+Boots x21 = $3150 | Remaining: 179
+
+✅ Total price: $18050
+------------------------------------------------
+🛍️ Order Summary:
+
+Football x5 = $2500 | Remaining: 145
+Jersey x6 = $4800 | Remaining: 94
+
+✅ Total price: $7300
+------------------------------------------------
+🛍️ Order Summary:
+
+Football x5 = $2500 | Remaining: 145
+Jersey x6 = $4800 | Remaining: 94
+Shorts x35 = $28000 | Remaining: 65
+
+✅ Total price: $35300
+------------------------------------------------
+🛍️ Order Summary:
+
+Jersey x5 = $4000 | Remaining: 89
+
+✅ Total price: $4000
+------------------------------------------------

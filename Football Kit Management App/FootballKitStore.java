@@ -326,7 +326,30 @@ public class FootballKitStore extends JFrame {
         // Add the vertical stack to center of main layout
         centralPanel.add(verticalStack, BorderLayout.CENTER);
 
-        orderHistoryArea = new JTextArea(10, 70); // Set rows and columns
+        orderHistoryArea = new JTextArea(10, 70); 
+		
+		// Load existing order history from file if available
+try {
+    File file = new File("./orders/order_history.txt");
+    if (file.exists()) {
+        FileReader fr = new FileReader(file);
+        BufferedReader br = new BufferedReader(fr);
+        String line;
+        while ((line = br.readLine()) != null) {
+            orderHistoryArea.append(line + "\n");
+        }
+        br.close();
+        fr.close();
+    }
+} catch (IOException ex) {
+    ex.printStackTrace();
+    JOptionPane.showMessageDialog(FootballKitStore.this,
+            "Error loading previous order history.",
+            "File Read Error",
+            JOptionPane.ERROR_MESSAGE);
+}
+		
+		// Set rows and columns
         orderHistoryArea.setEditable(false);
         orderHistoryArea.setFont(new Font("Monospaced", Font.PLAIN, 18));
         orderHistoryArea.setBackground(new Color(0, 0, 0));
@@ -338,6 +361,9 @@ public class FootballKitStore extends JFrame {
         scrollPane.setMaximumSize(new Dimension(1000, 150)); // Width adjusted for product cards
         centerGroupPanel.add(Box.createRigidArea(new Dimension(0, 20))); // Spacer
         centerGroupPanel.add(scrollPane);
+		
+		
+
 
 
         setVisible(true);
