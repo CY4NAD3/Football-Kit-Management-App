@@ -1,48 +1,38 @@
-# Hi there, I'm Md. Azraful Alam 👋
-This is my first Github repo :) 
+# Football Kit Store
 
-![Profile Banner](https://capsule-render.vercel.app/api?text=Welcome%20to%20my%20GitHub!&animation=fadeIn&type=waving&color=gradient&height=150)
+A desktop Java Swing app for browsing and ordering football kit — jerseys, boots, footballs, and more — with live stock tracking and a persistent order history.
 
-## 🚀 About Me
-- 🎓 CSE student passionate about **Java, Data Structures, Network and Cybersecurity**.
-- 🔥 Currently working on **FootballKitStore** – a Java-based store management system.
-- 🎮 Exploring **networking conecpts** and learning how to recreate scenarios in a **Simulated Lab Environment**.
-- 💡 I love solving **LeetCode challenges** and practicing **Linux commands**.
+## Features
 
----
+- **Product catalog** — six items (Football, Jersey, Shorts, Watersipper, Scarf, Boots), each with an image, price, and live stock count
+- **Quantity selection** — per-item dropdown capped at current stock, so you can't order more than what's available
+- **Running total** — Save recalculates the total price across all selected items
+- **Order confirmation** — Confirm validates stock, asks for a yes/no confirmation, then deducts the ordered quantities from stock
+- **Persistent order history** — confirmed orders are appended to `orders/order_history.txt` and reloaded into the on-screen log on every launch
+- **A button you shouldn't press** — self-explanatory
 
-## 🛠 Skills & Tools
-![Java](https://img.shields.io/badge/Code-Java-blue?logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/Code-C++-00599C?logo=cplusplus)
-![Python](https://img.shields.io/badge/Code-Python-yellow?logo=python&logoColor=white)
-![Linux](https://img.shields.io/badge/OS-Linux-black?logo=linux)
-![Git](https://img.shields.io/badge/VersionControl-Git-orange?logo=git&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IDE-IntelliJ%20IDEA-purple?logo=intellijidea&logoColor=white)
-![VS Code](https://img.shields.io/badge/Editor-VSCode-blue?logo=visualstudiocode)
+## Tech Stack
 
----
+- Java (Swing / AWT) for the UI
+- Plain file I/O for order persistence — no database
+- Built and run via IntelliJ IDEA
 
-## 📌 Featured Projects
-### **FootballKitStore**  
-A Java-based store application for managing football kits.  
-**Tech Stack:** Java, Object-Oriented Programming (OOP).  
-[![GitHub Repo](https://img.shields.io/badge/Repo-FootballKitStore-brightgreen?logo=github)](YourRepoLink)
+## Project Structure
 
-### **Main.java Demo**  
-Testing core functionalities and logic for store operations.  
+```
+Football Kit Management App/
+├── Main.java              # entry point
+├── FootballKitStore.java  # UI + order logic
+├── Kit images/            # product images
+├── BlueFootball/          # window icon
+├── skull/                 # icon for the joke button
+└── orders/                # order_history.txt gets written here
+```
 
----
+## Running It
 
-## 📊 GitHub Stats
-![YourName's GitHub stats](https://github-readme-stats.vercel.app/api?username=YourUsername&show_icons=true&theme=tokyonight)
+Open the project in IntelliJ IDEA (or compile manually with `javac`), then run `Main.java`. Make sure the working directory is set to `Football Kit Management App/` so the image and order-history paths resolve correctly.
 
----
+## Notes
 
-## 📫 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)]([https://www.linkedin.com/in/YourProfile](https://www.linkedin.com/in/md-azraful-alam/))  
-[![Email](https://img.shields.io/badge/Email-Send-green?logo=gmail)](mailto:alam.azraf@gmail.com)
-
----
-
-> *"Code is like humor. When you have to explain it, it’s bad." – Cory House*
-
+This was an early Java/OOP practice project — a store interface backed by arrays and basic Swing components rather than a database.
